@@ -1,0 +1,103 @@
+h1 {
+	font-size: 260%;
+	transform: translate(25%, 150%);
+}
+
+h2 {
+	font-size: 200%;
+	padding: 20px;
+}
+
+#banner {
+	width: 100%;
+}
+
+#logo {
+	width:30%;
+}
+
+#signInIcon {
+	width: 5%;
+}
+
+#menuIcon {
+	width:2%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#banner2 {
+	width:90%;
+}
+
+p {
+	font-size: 150%;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.place {
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+li {
+	list-style-type: none;
+	line-height: 30px;
+	padding: 10px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner {
+	display: flex;
+}
+
+#banner {
+	position: relative;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+#topBanner > div {
+	transform: translate(42%, 60%);
+}
+
+#logo {
+	transform: translate(0, -30%);
+}
+
+#menuIcon {
+	transform: translate(0, -20%);
+}
+
+#topBanner > h2 {
+	transform: translate (35%, 1000%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+
+}
+
+#cards {
+	display: flex
+	justify-content: space-evenly;
+}
+
+#navigationMenu {
+	display: flex;
+	justify-content: space-evenly;
+}
